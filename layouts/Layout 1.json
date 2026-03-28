@@ -47,8 +47,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 656,
-						"y": 311,
+						"x": 611,
+						"y": 570,
 						"width": 109,
 						"height": 75,
 						"originX": 0.5,
@@ -60,7 +60,7 @@
 							1
 						],
 						"z": 0,
-						"angle": 0
+						"angle": 0.014838589305712913
 					}
 				},
 				{
@@ -92,9 +92,99 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 979,
-						"y": 411,
+						"x": 517,
+						"y": 692,
 						"width": 932,
+						"height": 42,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"sid": 351880861475474,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 351880861475474,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1302.5,
+						"y": 568,
+						"width": 460,
+						"height": 42,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"sid": 171718823929029,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"Sólido": {
+							"properties": {
+								"enabled": true,
+								"use-instance-tags": true,
+								"tags": ""
+							}
+						}
+					},
+					"instanceFolderItem": {
+						"sid": 171718823929029,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 644,
+						"y": 447,
+						"width": 521,
 						"height": 42,
 						"originX": 0.5,
 						"originY": 0.5,
