@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "fase 01",
 	"layers": [
 		{
 			"name": "Camada 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "personaji",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -27,9 +27,9 @@
 						},
 						"Plataforma": {
 							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
+								"max-speed": 600,
+								"acceleration": 6000,
+								"deceleration": 6000,
 								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
@@ -47,8 +47,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 783,
-						"y": 408,
+						"x": 125,
+						"y": 824,
 						"width": 109,
 						"height": 75,
 						"originX": 0.5,
@@ -64,7 +64,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "chao",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -92,9 +92,9 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 554,
-						"y": 488,
-						"width": 932,
+						"x": 854.5,
+						"y": 939,
+						"width": 1713,
 						"height": 42,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -109,7 +109,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "pinto",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -118,74 +118,21 @@
 						"live-preview": false
 					},
 					"uid": 4,
-					"sid": 351880861475474,
+					"sid": 370487208884265,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
+					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 351880861475474,
+						"sid": 370487208884265,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 1199,
-						"y": 391,
-						"width": 460,
-						"height": 42,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"sid": 171718823929029,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 171718823929029,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 603,
-						"y": 315,
-						"width": 521,
-						"height": 42,
+						"x": 1662,
+						"y": 883,
+						"width": 60,
+						"height": 58,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -244,5 +191,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Folha de eventos 1"
+	"eventSheet": "e fase 1"
 }

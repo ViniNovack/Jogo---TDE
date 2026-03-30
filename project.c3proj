@@ -38,8 +38,10 @@
 	"uniqueId": "ds376a88xij",
 	"objectTypes": {
 		"items": [
-			"Sprite",
-			"Sprite2"
+			"personaji",
+			"chao",
+			"pinto",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -52,13 +54,16 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"fase 01",
+			"fase 02"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"e fase 1",
+			"Folha de eventos 1",
+			"Folha de eventos 2"
 		],
 		"subfolders": []
 	},

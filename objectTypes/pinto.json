@@ -1,22 +1,11 @@
 {
-	"name": "Sprite",
+	"name": "pinto",
 	"plugin-id": "Sprite",
-	"sid": 133712459176303,
+	"sid": 424409859350769,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Platform",
-			"name": "Plataforma",
-			"sid": 738570668667023
-		},
-		{
-			"behaviorId": "scrollto",
-			"name": "CentrarEm",
-			"sid": 898884806793638
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -31,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 1957733,
+						"imageSpriteId": 3950806,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 718696144808974,
+				"sid": 921396959231259,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
