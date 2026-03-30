@@ -1,0 +1,30 @@
+{
+	"name": "e fase 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 912651321314124,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 365660865063257,
+					"parameters": {
+						"layout": "\"fase 03\""
+					}
+				}
+			],
+			"sid": 394723280701523
+		}
+	],
+	"sid": 618056906854129
+}

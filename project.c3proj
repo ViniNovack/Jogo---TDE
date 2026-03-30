@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 47602,
+	"savedWithRelease": 47603,
 	"name": "Jogo - TDE",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -14,16 +14,16 @@
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "Platform",
-			"name": "Plataforma",
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Plano de Fundo em Blocos",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Centrar em",
+			"id": "Platform",
+			"name": "Plataforma",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -38,8 +38,21 @@
 	"uniqueId": "ds376a88xij",
 	"objectTypes": {
 		"items": [
+			"personaji",
+			"chao",
+			"pinto",
 			"Sprite",
-			"Sprite2"
+			"PlanoDeFundoEmBlocos",
+			"Sprite2",
+			"PlanoDeFundoEmBlocos2",
+			"fundo",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"Sprite7",
+			"Sprite8",
+			"Sprite9"
 		],
 		"subfolders": []
 	},
@@ -52,13 +65,17 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"fase 01",
+			"fase 02",
+			"fase 03"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Folha de eventos 1"
+			"e fase 1",
+			"e fase 2",
+			"e fase 3"
 		],
 		"subfolders": []
 	},

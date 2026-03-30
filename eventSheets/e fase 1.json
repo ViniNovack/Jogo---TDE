@@ -1,0 +1,30 @@
+{
+	"name": "e fase 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "personaji",
+					"sid": 384184163960462,
+					"parameters": {
+						"object": "pinto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 531725975303008,
+					"parameters": {
+						"layout": "fase 02"
+					}
+				}
+			],
+			"sid": 659295622913401
+		}
+	],
+	"sid": 624652553689459
+}

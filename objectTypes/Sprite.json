@@ -1,20 +1,15 @@
 {
 	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 585001498750215,
+	"sid": 133712459176303,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "scrollto",
-			"name": "CentrarEm",
-			"sid": 115739175588448
-		},
-		{
 			"behaviorId": "Platform",
 			"name": "Plataforma",
-			"sid": 588655657622067
+			"sid": 738570668667023
 		}
 	],
 	"effectTypes": [],
@@ -31,13 +26,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3014004,
+						"imageSpriteId": 1957733,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 401018548874633,
+				"sid": 718696144808974,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
