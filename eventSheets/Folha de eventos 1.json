@@ -1,5 +1,111 @@
 {
 	"name": "Folha de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 504892995749470,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite3",
+					"sid": 491217853881128,
+					"parameters": {
+						"animation": "\"Direita\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 416316828216178
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 318894010114593,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite3",
+					"sid": 118688574295278,
+					"parameters": {
+						"animation": "\"Esquerda\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 276654003855259
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 654817036511959,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite3",
+					"sid": 963455201346487,
+					"parameters": {
+						"animation": "\"Pular\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 351338198070165
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "Sprite3",
+					"sid": 689038069837137,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite3",
+					"sid": 764244462254463,
+					"behaviorType": "Plataforma",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite3",
+					"sid": 638451428807550,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 647135340375784
+		}
+	],
 	"sid": 624652553689459
 }

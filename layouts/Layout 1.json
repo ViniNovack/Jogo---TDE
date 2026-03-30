@@ -7,24 +7,19 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "Sprite3",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Parado",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 2,
-					"sid": 211925997305047,
+					"uid": 4,
+					"sid": 849161564399500,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
-						"CentrarEm": {
-							"properties": {
-								"enabled": true
-							}
-						},
 						"Plataforma": {
 							"properties": {
 								"max-speed": 330,
@@ -33,69 +28,30 @@
 								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
-								"double-jump": false,
+								"double-jump": true,
 								"jump-sustain": 0,
 								"default-controls": true,
 								"enabled": true
 							}
-						}
-					},
-					"instanceFolderItem": {
-						"sid": 211925997305047,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 656,
-						"y": 311,
-						"width": 109,
-						"height": 75,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 3,
-					"sid": 867746629154089,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Sólido": {
+						},
+						"RestritoAoLayout": {
 							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
+								"bound-by": "edge",
+								"region": "layout"
 							}
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 867746629154089,
+						"sid": 849161564399500,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 979,
-						"y": 411,
-						"width": 932,
-						"height": 42,
+						"x": 314,
+						"y": 345,
+						"width": 95.00000000000001,
+						"height": 131,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
