@@ -14,6 +14,13 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "video",
+			"name": "Vídeo",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
@@ -39,7 +46,8 @@
 	"objectTypes": {
 		"items": [
 			"Sprite",
-			"Sprite2"
+			"Sprite2",
+			"Vídeo"
 		],
 		"subfolders": []
 	},
