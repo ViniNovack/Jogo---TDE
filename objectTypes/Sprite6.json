@@ -1,17 +1,11 @@
 {
-	"name": "personaji",
+	"name": "Sprite6",
 	"plugin-id": "Sprite",
-	"sid": 585001498750215,
+	"sid": 621609265276740,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Platform",
-			"name": "Plataforma",
-			"sid": 588655657622067
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -26,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 3014004,
+						"imageSpriteId": 3103811,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 401018548874633,
+				"sid": 496976261895849,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
