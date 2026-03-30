@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 47602,
+	"savedWithRelease": 47603,
 	"name": "Jogo - TDE",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -29,13 +29,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "scrollto",
-			"name": "Centrar em",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "solid",
 			"name": "Sólido",
 			"author": "Scirra",
@@ -52,7 +45,14 @@
 			"PlanoDeFundoEmBlocos",
 			"Sprite2",
 			"PlanoDeFundoEmBlocos2",
-			"fundo"
+			"fundo",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"Sprite7",
+			"Sprite8",
+			"Sprite9"
 		],
 		"subfolders": []
 	},
@@ -66,15 +66,16 @@
 	"layouts": {
 		"items": [
 			"fase 01",
-			"fase 02"
+			"fase 02",
+			"fase 03"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"e fase 1",
-			"Folha de eventos 1",
-			"Folha de eventos 2"
+			"e fase 2",
+			"e fase 3"
 		],
 		"subfolders": []
 	},

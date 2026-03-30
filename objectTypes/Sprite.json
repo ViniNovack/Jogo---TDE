@@ -10,11 +10,6 @@
 			"behaviorId": "Platform",
 			"name": "Plataforma",
 			"sid": 738570668667023
-		},
-		{
-			"behaviorId": "scrollto",
-			"name": "CentrarEm",
-			"sid": 898884806793638
 		}
 	],
 	"effectTypes": [],

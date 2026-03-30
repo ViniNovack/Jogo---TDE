@@ -1,38 +1,32 @@
 {
-	"name": "personaji",
+	"name": "Sprite5",
 	"plugin-id": "Sprite",
-	"sid": 585001498750215,
+	"sid": 219070699024171,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Platform",
-			"name": "Plataforma",
-			"sid": 588655657622067
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 1266,
+						"height": 710,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"fileType": "image/png",
-						"imageSpriteId": 3014004,
+						"fileType": "image/jpeg",
+						"imageSpriteId": 5332486,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 401018548874633,
+				"sid": 114555293661510,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
