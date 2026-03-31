@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 47602,
+	"savedWithRelease": 47603,
 	"name": "Jogo - TDE",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -57,7 +57,8 @@
 			"Cenario",
 			"Plataforma",
 			"Sprite3",
-			"Teclado"
+			"Teclado",
+			"Sprite4"
 		],
 		"subfolders": []
 	},
