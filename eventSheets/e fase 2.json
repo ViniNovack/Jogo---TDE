@@ -6,7 +6,7 @@
 			"conditions": [
 				{
 					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite",
+					"objectClass": "Sprite10",
 					"sid": 912651321314124,
 					"parameters": {
 						"object": "Sprite6"
@@ -24,6 +24,111 @@
 				}
 			],
 			"sid": 394723280701523
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 321984226196275,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 203903075213447,
+					"parameters": {
+						"animation": "\"Direita\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 608465434939123
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 160213243707631,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 826886471116500,
+					"parameters": {
+						"animation": "\"Esquerda\"",
+						"from": "current-frame"
+					}
+				}
+			],
+			"sid": 240719810531484
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 168447271153414,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 426111614404982,
+					"parameters": {
+						"animation": "\"Pular\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 185782336562242
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "Sprite10",
+					"sid": 219762573350821,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite10",
+					"sid": 485923647031469,
+					"behaviorType": "Plataforma",
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 519757071029390,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 654251389905668
 		}
 	],
 	"sid": 618056906854129

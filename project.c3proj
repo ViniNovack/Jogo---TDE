@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -24,6 +31,13 @@
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Restrito ao layout",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -52,7 +66,9 @@
 			"Sprite6",
 			"Sprite7",
 			"Sprite8",
-			"Sprite9"
+			"Sprite9",
+			"Sprite10",
+			"Teclado"
 		],
 		"subfolders": []
 	},
