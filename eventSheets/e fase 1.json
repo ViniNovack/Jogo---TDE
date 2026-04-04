@@ -129,6 +129,45 @@
 				}
 			],
 			"sid": 634545378011647
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 728413061608562
+				}
+			],
+			"actions": [
+				{
+					"id": "set-sampling",
+					"objectClass": "Vídeo1",
+					"sid": 702037398794783,
+					"parameters": {
+						"sampling": "auto"
+					}
+				}
+			],
+			"sid": 166841037525063
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-ended",
+					"objectClass": "Vídeo1",
+					"sid": 629227384212194
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Vídeo1",
+					"sid": 111819256375497
+				}
+			],
+			"sid": 745141170177222
 		}
 	],
 	"sid": 624652553689459

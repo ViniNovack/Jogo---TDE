@@ -353,6 +353,44 @@
 						"z": 0,
 						"angle": 0
 					}
+				},
+				{
+					"type": "Vídeo1",
+					"properties": {
+						"primary-source": "1.mp4",
+						"primary-format": "mp4-h264",
+						"secondary-source": "",
+						"secondary-format": "webm-vp9",
+						"autoplay": "yes",
+						"play-in-background": false,
+						"initially-visible": true
+					},
+					"uid": 33,
+					"sid": 320468192119219,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 320468192119219,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": -12,
+						"y": -21,
+						"width": 891,
+						"height": 512,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0
+					}
 				}
 			],
 			"sid": 655685100140283,
