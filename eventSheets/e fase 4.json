@@ -1,37 +1,13 @@
 {
-	"name": "e fase 2",
+	"name": "e fase 4",
 	"events": [
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite10",
-					"sid": 912651321314124,
-					"parameters": {
-						"object": "Sprite6"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout-by-name",
-					"objectClass": "System",
-					"sid": 623710336918715,
-					"parameters": {
-						"layout": "\"fase 03\""
-					}
-				}
-			],
-			"sid": 394723280701523
-		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
-					"sid": 321984226196275,
+					"sid": 700556271805794,
 					"parameters": {
 						"key": 39
 					}
@@ -41,14 +17,14 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite10",
-					"sid": 203903075213447,
+					"sid": 101565897878643,
 					"parameters": {
 						"animation": "\"Direita\"",
 						"from": "current-frame"
 					}
 				}
 			],
-			"sid": 608465434939123
+			"sid": 217528822026626
 		},
 		{
 			"eventType": "block",
@@ -56,7 +32,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
-					"sid": 160213243707631,
+					"sid": 753178510020813,
 					"parameters": {
 						"key": 37
 					}
@@ -66,14 +42,14 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite10",
-					"sid": 826886471116500,
+					"sid": 643293489428875,
 					"parameters": {
 						"animation": "\"Esquerda\"",
 						"from": "current-frame"
 					}
 				}
 			],
-			"sid": 240719810531484
+			"sid": 897993548033387
 		},
 		{
 			"eventType": "block",
@@ -81,7 +57,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
-					"sid": 168447271153414,
+					"sid": 231250182225982,
 					"parameters": {
 						"key": 38
 					}
@@ -91,14 +67,14 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite10",
-					"sid": 426111614404982,
+					"sid": 801193551248757,
 					"parameters": {
 						"animation": "\"Pular\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 185782336562242
+			"sid": 245304611513153
 		},
 		{
 			"eventType": "block",
@@ -106,13 +82,13 @@
 				{
 					"id": "is-on-floor",
 					"objectClass": "Sprite10",
-					"sid": 219762573350821,
+					"sid": 654136113115255,
 					"behaviorType": "Plataforma"
 				},
 				{
 					"id": "is-moving",
 					"objectClass": "Sprite10",
-					"sid": 485923647031469,
+					"sid": 765198313826647,
 					"behaviorType": "Plataforma",
 					"isInverted": true
 				}
@@ -121,15 +97,15 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite10",
-					"sid": 519757071029390,
+					"sid": 642510356957251,
 					"parameters": {
 						"animation": "\"Parado\"",
 						"from": "beginning"
 					}
 				}
 			],
-			"sid": 654251389905668
+			"sid": 500147690181291
 		}
 	],
-	"sid": 618056906854129
+	"sid": 674444575654861
 }

@@ -76,7 +76,9 @@
 			"Sprite9",
 			"Sprite10",
 			"Teclado",
-			"Vídeo1"
+			"Vídeo1",
+			"Sprite11",
+			"Vídeo2"
 		],
 		"subfolders": []
 	},
@@ -91,6 +93,7 @@
 		"items": [
 			"fase 01",
 			"fase 02",
+			"fase 04",
 			"fase 03"
 		],
 		"subfolders": []
@@ -99,6 +102,7 @@
 		"items": [
 			"e fase 1",
 			"e fase 2",
+			"e fase 4",
 			"e fase 3"
 		],
 		"subfolders": []
@@ -122,6 +126,14 @@
 					"name": "1.mp4",
 					"type": "video/mp4",
 					"sid": 743022898892790,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "2.mp4",
+					"type": "video/mp4",
+					"sid": 457713100338650,
 					"file-info": {
 						"purpose": "none"
 					}
