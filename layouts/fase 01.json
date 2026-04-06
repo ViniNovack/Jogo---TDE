@@ -377,10 +377,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -12,
-						"y": -21,
-						"width": 891,
-						"height": 512,
+						"x": -7,
+						"y": -10,
+						"width": 886,
+						"height": 504,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -438,5 +438,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "e fase 1"
+	"eventSheet": "e fase 2"
 }

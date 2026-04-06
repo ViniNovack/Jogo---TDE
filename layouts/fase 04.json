@@ -413,7 +413,7 @@
 						"live-preview": false
 					},
 					"uid": 32,
-					"sid": 208471862799406,
+					"sid": 147297247518165,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {
@@ -439,16 +439,16 @@
 						}
 					},
 					"instanceFolderItem": {
-						"sid": 208471862799406,
+						"sid": 147297247518165,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 72,
-						"y": 389,
-						"width": 35.78113782726084,
-						"height": 60.5849253893939,
+						"x": 54,
+						"y": 388,
+						"width": 31.579764829549163,
+						"height": 55.42245399351293,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -507,5 +507,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "e fase 2"
 }

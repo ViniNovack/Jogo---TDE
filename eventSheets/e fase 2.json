@@ -35,6 +35,16 @@
 					"parameters": {
 						"key": 39
 					}
+				},
+				{
+					"id": "compare-speed",
+					"objectClass": "Sprite10",
+					"sid": 463652470643268,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"comparison": 4,
+						"speed": "0"
+					}
 				}
 			],
 			"actions": [
@@ -46,6 +56,14 @@
 						"animation": "\"Direita\"",
 						"from": "current-frame"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite10",
+					"sid": 136396569270155,
+					"parameters": {
+						"state": "not-mirrored"
+					}
 				}
 			],
 			"sid": 608465434939123
@@ -56,20 +74,34 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Teclado",
-					"sid": 160213243707631,
+					"sid": 707228304536143,
 					"parameters": {
 						"key": 37
 					}
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite10",
+					"sid": 753639034049399,
+					"behaviorType": "Plataforma"
 				}
 			],
 			"actions": [
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite10",
-					"sid": 826886471116500,
+					"sid": 511645541501378,
 					"parameters": {
-						"animation": "\"Esquerda\"",
+						"animation": "\"Direita\"",
 						"from": "current-frame"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite10",
+					"sid": 340654742534579,
+					"parameters": {
+						"state": "mirrored"
 					}
 				}
 			],
@@ -85,6 +117,13 @@
 					"parameters": {
 						"key": 38
 					}
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Sprite10",
+					"sid": 911297525705674,
+					"behaviorType": "Plataforma",
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -95,6 +134,14 @@
 					"parameters": {
 						"animation": "\"Pular\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite10",
+					"sid": 190833054762345,
+					"parameters": {
+						"state": "not-mirrored"
 					}
 				}
 			],
@@ -126,9 +173,65 @@
 						"animation": "\"Parado\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite10",
+					"sid": 406996909747311,
+					"parameters": {
+						"state": "not-mirrored"
+					}
 				}
 			],
 			"sid": 654251389905668
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite10",
+					"sid": 590130392899354,
+					"parameters": {
+						"object": "pinto"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 413092128427968,
+					"parameters": {
+						"layout": "fase 02"
+					}
+				}
+			],
+			"sid": 367747063787802
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite10",
+					"sid": 274554214052188,
+					"parameters": {
+						"object": "Sprite6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 208459375224349,
+					"parameters": {
+						"layout": "\"fase 03\""
+					}
+				}
+			],
+			"sid": 395916421942009
 		}
 	],
 	"sid": 618056906854129
