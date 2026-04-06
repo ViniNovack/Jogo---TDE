@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Follow",
+			"name": "Seguir",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Platform",
 			"name": "Plataforma",
 			"author": "Scirra",
@@ -45,6 +52,13 @@
 			"type": "behavior",
 			"id": "bound",
 			"name": "Restrito ao layout",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Centrar em",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -78,7 +92,8 @@
 			"Teclado",
 			"Vídeo1",
 			"Sprite11",
-			"Vídeo2"
+			"Vídeo2",
+			"Sprite13"
 		],
 		"subfolders": []
 	},

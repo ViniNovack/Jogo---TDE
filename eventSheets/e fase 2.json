@@ -2,6 +2,26 @@
 	"name": "e fase 2",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "VidaPersonagem",
+			"type": "number",
+			"initialValue": "5",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 752119964362276
+		},
+		{
+			"eventType": "variable",
+			"name": "Invincibilidade",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 560650656816962
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -232,6 +252,172 @@
 				}
 			],
 			"sid": 395916421942009
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 987264010272190
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Sprite10",
+					"sid": 259817642863100,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "Sprite13.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Sprite13",
+					"sid": 870391186513179,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 458821639506988
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "Sprite10",
+					"sid": 770924301817796,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "Sprite13.X"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Sprite13",
+					"sid": 647151884604899,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 299480847138277
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Sprite10",
+					"sid": 288027142134527,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Sprite13",
+					"sid": 583312090333841,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 697641144656479
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 215149823287555,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				},
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 757236037978680,
+					"parameters": {
+						"variable": "Invincibilidade",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 877957548738324,
+					"parameters": {
+						"variable": "VidaPersonagem",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 882270067292955
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 872280488645393,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 944998805799966,
+					"parameters": {
+						"variable": "Invincibilidade",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 731153847526741
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 917138689099830,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 749434698785664,
+					"parameters": {
+						"variable": "Invincibilidade",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 843601997526874
 		}
 	],
 	"sid": 618056906854129
