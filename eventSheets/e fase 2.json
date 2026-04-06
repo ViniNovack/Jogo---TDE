@@ -344,16 +344,6 @@
 					"parameters": {
 						"object": "Sprite10"
 					}
-				},
-				{
-					"id": "compare-eventvar",
-					"objectClass": "System",
-					"sid": 757236037978680,
-					"parameters": {
-						"variable": "Invincibilidade",
-						"comparison": 4,
-						"value": "0"
-					}
 				}
 			],
 			"actions": [
@@ -364,6 +354,15 @@
 					"parameters": {
 						"variable": "VidaPersonagem",
 						"value": "1"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 246374603168709,
+					"parameters": {
+						"animation": "\"Dano\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -398,26 +397,47 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "every-x-seconds",
+					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 917138689099830,
+					"sid": 715395742336461,
 					"parameters": {
-						"interval-seconds": "1.0"
+						"variable": "VidaPersonagem",
+						"comparison": 0,
+						"value": "0"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "subtract-from-eventvar",
+					"id": "move-to-top",
+					"objectClass": "Sprite12",
+					"sid": 815955274180009
+				},
+				{
+					"id": "wait",
 					"objectClass": "System",
-					"sid": 749434698785664,
+					"sid": 899117415638440,
 					"parameters": {
-						"variable": "Invincibilidade",
-						"value": "1"
+						"seconds": "2.0",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 576788025957237
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 563505096097355,
+					"parameters": {
+						"variable": "VidaPersonagem",
+						"value": "5"
 					}
 				}
 			],
-			"sid": 843601997526874
+			"sid": 869922496153586
 		}
 	],
 	"sid": 618056906854129

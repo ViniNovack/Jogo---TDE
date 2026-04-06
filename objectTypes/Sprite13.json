@@ -20,6 +20,11 @@
 			"behaviorId": "Platform",
 			"name": "Plataforma",
 			"sid": 133453164523612
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 949098995683061
 		}
 	],
 	"effectTypes": [],
