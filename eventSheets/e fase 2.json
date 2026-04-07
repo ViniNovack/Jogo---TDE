@@ -453,6 +453,17 @@
 								"which": "add",
 								"name": "\"Dano\""
 							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "Sprite10",
+							"sid": 106207899926885,
+							"behaviorType": "Piscar",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "1.0"
+							}
 						}
 					],
 					"sid": 585758371055330
@@ -503,6 +514,17 @@
 							"parameters": {
 								"animation": "\"triste\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "Sprite13",
+							"sid": 687837128177209,
+							"behaviorType": "Piscar",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "1.0"
 							}
 						}
 					],
