@@ -25,31 +25,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 234599514145822,
-					"parameters": {
-						"key": 81
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "Sprite10",
-					"sid": 241344450502305,
-					"parameters": {
-						"animation": "\"Ataque\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 980766533872608
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite10",
 					"sid": 912651321314124,
@@ -207,6 +182,15 @@
 					"sid": 485923647031469,
 					"behaviorType": "Plataforma",
 					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 321773650000188,
+					"parameters": {
+						"animation": "\"Ataque\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -358,6 +342,31 @@
 				}
 			],
 			"sid": 697641144656479
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 307254453030006,
+					"parameters": {
+						"key": 81
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 109303048291847,
+					"parameters": {
+						"animation": "\"Ataque\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 517051357709620
 		},
 		{
 			"eventType": "block",
