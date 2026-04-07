@@ -473,6 +473,9 @@
 								"bound-by": "edge",
 								"region": "layout"
 							}
+						},
+						"Piscar": {
+							"properties": {}
 						}
 					},
 					"instanceFolderItem": {
@@ -482,10 +485,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 54,
-						"y": 388,
-						"width": 31.579764829549163,
-						"height": 55.42245399351293,
+						"x": 46.18288765485349,
+						"y": 393.5179616553975,
+						"width": 34.3387456572479,
+						"height": 59.10109509711128,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -549,12 +552,8 @@
 								"enabled": true
 							}
 						},
-						"Sólido": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
+						"Piscar": {
+							"properties": {}
 						}
 					},
 					"instanceFolderItem": {

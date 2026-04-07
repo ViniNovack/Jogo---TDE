@@ -15,6 +15,11 @@
 			"behaviorId": "bound",
 			"name": "RestritoAoLayout",
 			"sid": 785352034620146
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Piscar",
+			"sid": 485757024734351
 		}
 	],
 	"effectTypes": [],
@@ -219,6 +224,43 @@
 				],
 				"sid": 325597759850316,
 				"name": "Dano",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 1280,
+						"height": 1280,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2578514,
+						"collisionPoly": {
+							"points": [
+								0.42499999999999993,
+								0,
+								0.909375,
+								0.16249999999999998,
+								0.8249999999999998,
+								1,
+								0.18749999999999997,
+								0.8937499999999998
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 282806091352570,
+				"name": "Ataque",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

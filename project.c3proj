@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "Flash",
+			"name": "Piscar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "Follow",
 			"name": "Seguir",
 			"author": "Scirra",
@@ -94,7 +101,8 @@
 			"Sprite11",
 			"Vídeo2",
 			"Sprite13",
-			"Sprite12"
+			"Sprite12",
+			"Vídeo"
 		],
 		"subfolders": []
 	},
@@ -109,8 +117,9 @@
 		"items": [
 			"fase 01",
 			"fase 02",
+			"fase 03",
 			"fase 04",
-			"fase 03"
+			"fase 05"
 		],
 		"subfolders": []
 	},
@@ -119,7 +128,8 @@
 			"e fase 1",
 			"e fase 2",
 			"e fase 4",
-			"e fase 3"
+			"e fase 3",
+			"e fase 5"
 		],
 		"subfolders": []
 	},
@@ -150,6 +160,14 @@
 					"name": "2.mp4",
 					"type": "video/mp4",
 					"sid": 457713100338650,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "3.mp4",
+					"type": "video/mp4",
+					"sid": 958136593467689,
 					"file-info": {
 						"purpose": "none"
 					}

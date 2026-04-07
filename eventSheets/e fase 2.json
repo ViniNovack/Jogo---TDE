@@ -13,13 +13,13 @@
 		},
 		{
 			"eventType": "variable",
-			"name": "Invincibilidade",
+			"name": "VidaBoss",
 			"type": "number",
-			"initialValue": "0",
+			"initialValue": "25",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 560650656816962
+			"sid": 353640362637231
 		},
 		{
 			"eventType": "block",
@@ -338,65 +338,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite13",
-					"sid": 215149823287555,
-					"parameters": {
-						"object": "Sprite10"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "subtract-from-eventvar",
-					"objectClass": "System",
-					"sid": 877957548738324,
-					"parameters": {
-						"variable": "VidaPersonagem",
-						"value": "1"
-					}
-				},
-				{
-					"id": "set-animation",
-					"objectClass": "Sprite10",
-					"sid": 246374603168709,
-					"parameters": {
-						"animation": "\"Dano\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 882270067292955
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Teclado",
-					"sid": 872280488645393,
-					"parameters": {
-						"key": 69
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 944998805799966,
-					"parameters": {
-						"variable": "Invincibilidade",
-						"value": "1"
-					}
-				}
-			],
-			"sid": 731153847526741
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
 					"sid": 715395742336461,
@@ -438,6 +379,161 @@
 				}
 			],
 			"sid": 869922496153586
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 140153285001047,
+					"parameters": {
+						"variable": "VidaBoss",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 292056861569961,
+					"parameters": {
+						"layout": "\"fase 05\""
+					}
+				}
+			],
+			"sid": 636551977007097,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite13",
+					"sid": 926242592442904,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 298280086252047,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite10",
+							"sid": 174242368141738,
+							"parameters": {
+								"animation": "\"Ataque\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 202879635857690,
+							"parameters": {
+								"variable": "VidaPersonagem",
+								"value": "1"
+							}
+						},
+						{
+							"id": "add-remove-animation",
+							"objectClass": "Sprite10",
+							"sid": 160259493468475,
+							"parameters": {
+								"which": "add",
+								"name": "\"Dano\""
+							}
+						}
+					],
+					"sid": 585758371055330
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite10",
+					"sid": 276897418917706,
+					"parameters": {
+						"object": "Sprite13"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 958443146599996,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite10",
+							"sid": 525758274391993,
+							"parameters": {
+								"animation": "\"Ataque\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 807898666825428,
+							"parameters": {
+								"variable": "VidaBoss",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite13",
+							"sid": 347388241861642,
+							"parameters": {
+								"animation": "\"triste\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 826470820925055
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 211386242327324,
+					"parameters": {
+						"key": 81
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 463104574539788,
+					"parameters": {
+						"animation": "\"Ataque\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 764471207329663
 		}
 	],
 	"sid": 618056906854129

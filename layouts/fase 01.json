@@ -329,6 +329,9 @@
 								"bound-by": "edge",
 								"region": "layout"
 							}
+						},
+						"Piscar": {
+							"properties": {}
 						}
 					},
 					"instanceFolderItem": {

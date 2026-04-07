@@ -1,0 +1,48 @@
+{
+	"name": "e fase 5",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 973594384936571
+				}
+			],
+			"actions": [
+				{
+					"id": "set-sampling",
+					"objectClass": "Vídeo",
+					"sid": 902647229468904,
+					"parameters": {
+						"sampling": "auto"
+					}
+				}
+			],
+			"sid": 256293121317403
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-ended",
+					"objectClass": "Vídeo",
+					"sid": 932907611715792
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 813155175958082,
+					"parameters": {
+						"layout": "\"fase 01\""
+					}
+				}
+			],
+			"sid": 371723855509889
+		}
+	],
+	"sid": 266492415235316
+}
