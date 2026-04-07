@@ -65,6 +65,15 @@
 						"comparison": 4,
 						"speed": "0"
 					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 259067397881809,
+					"parameters": {
+						"animation": "\"Ataque\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -104,6 +113,15 @@
 					"objectClass": "Sprite10",
 					"sid": 753639034049399,
 					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 580894362843376,
+					"parameters": {
+						"animation": "\"Ataque\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -143,6 +161,15 @@
 					"objectClass": "Sprite10",
 					"sid": 911297525705674,
 					"behaviorType": "Plataforma",
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 165723632766997,
+					"parameters": {
+						"animation": "\"Ataque\""
+					},
 					"isInverted": true
 				}
 			],

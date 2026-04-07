@@ -12,9 +12,17 @@
 			],
 			"actions": [
 				{
+					"id": "set-visible",
+					"objectClass": "Vídeo1",
+					"sid": 826197254538172,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "set-sampling",
 					"objectClass": "Vídeo1",
-					"sid": 702037398794783,
+					"sid": 933736633999288,
 					"parameters": {
 						"sampling": "auto"
 					}
@@ -33,9 +41,12 @@
 			],
 			"actions": [
 				{
-					"id": "destroy",
+					"id": "set-visible",
 					"objectClass": "Vídeo1",
-					"sid": 111819256375497
+					"sid": 795255160191502,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 745141170177222
