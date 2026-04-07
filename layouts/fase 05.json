@@ -29,10 +29,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 3,
-						"y": 2,
-						"width": 851,
-						"height": 475,
+						"x": -8,
+						"y": -5,
+						"width": 871,
+						"height": 487,
 						"originX": 0,
 						"originY": 0,
 						"color": [

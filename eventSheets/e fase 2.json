@@ -25,6 +25,31 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 234599514145822,
+					"parameters": {
+						"key": 81
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 241344450502305,
+					"parameters": {
+						"animation": "\"Ataque\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 980766533872608
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "Sprite10",
 					"sid": 912651321314124,
@@ -431,69 +456,6 @@
 							"sid": 174242368141738,
 							"parameters": {
 								"animation": "\"Ataque\""
-							},
-							"isInverted": true
-						}
-					],
-					"actions": [
-						{
-							"id": "subtract-from-eventvar",
-							"objectClass": "System",
-							"sid": 202879635857690,
-							"parameters": {
-								"variable": "VidaPersonagem",
-								"value": "1"
-							}
-						},
-						{
-							"id": "add-remove-animation",
-							"objectClass": "Sprite10",
-							"sid": 160259493468475,
-							"parameters": {
-								"which": "add",
-								"name": "\"Dano\""
-							}
-						},
-						{
-							"id": "flash",
-							"objectClass": "Sprite10",
-							"sid": 106207899926885,
-							"behaviorType": "Piscar",
-							"parameters": {
-								"on-time": "0.1",
-								"off-time": "0.1",
-								"duration": "1.0"
-							}
-						}
-					],
-					"sid": 585758371055330
-				}
-			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Sprite10",
-					"sid": 276897418917706,
-					"parameters": {
-						"object": "Sprite13"
-					}
-				}
-			],
-			"actions": [],
-			"sid": 958443146599996,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-animation-playing",
-							"objectClass": "Sprite10",
-							"sid": 525758274391993,
-							"parameters": {
-								"animation": "\"Ataque\""
 							}
 						}
 					],
@@ -501,7 +463,7 @@
 						{
 							"id": "subtract-from-eventvar",
 							"objectClass": "System",
-							"sid": 807898666825428,
+							"sid": 104924347941736,
 							"parameters": {
 								"variable": "VidaBoss",
 								"value": "1"
@@ -510,16 +472,47 @@
 						{
 							"id": "set-animation",
 							"objectClass": "Sprite13",
-							"sid": 347388241861642,
+							"sid": 528267114492282,
 							"parameters": {
 								"animation": "\"triste\"",
 								"from": "beginning"
 							}
+						}
+					],
+					"sid": 585758371055330
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 881690973175523
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 158591407386203,
+							"parameters": {
+								"variable": "VidaPersonagem",
+								"value": "1"
+							}
+						},
+						{
+							"id": "add-remove-animation",
+							"objectClass": "Sprite10",
+							"sid": 134725812343880,
+							"parameters": {
+								"which": "add",
+								"name": "\"Dano\""
+							}
 						},
 						{
 							"id": "flash",
-							"objectClass": "Sprite13",
-							"sid": 687837128177209,
+							"objectClass": "Sprite10",
+							"sid": 834335494524672,
 							"behaviorType": "Piscar",
 							"parameters": {
 								"on-time": "0.1",
@@ -528,34 +521,9 @@
 							}
 						}
 					],
-					"sid": 826470820925055
+					"sid": 976064603078447
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "key-is-down",
-					"objectClass": "Teclado",
-					"sid": 211386242327324,
-					"parameters": {
-						"key": 81
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "Sprite10",
-					"sid": 463104574539788,
-					"parameters": {
-						"animation": "\"Ataque\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 764471207329663
 		}
 	],
 	"sid": 618056906854129
