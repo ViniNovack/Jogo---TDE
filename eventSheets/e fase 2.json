@@ -430,12 +430,21 @@
 					"sid": 576788025957237
 				},
 				{
-					"id": "add-to-eventvar",
+					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 563505096097355,
+					"sid": 269905250528471,
 					"parameters": {
 						"variable": "VidaPersonagem",
 						"value": "5"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 344627982305887,
+					"parameters": {
+						"variable": "VidaBoss",
+						"value": "40"
 					}
 				}
 			],
@@ -650,6 +659,119 @@
 				}
 			],
 			"sid": 100768167001372
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 427598863837853
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Vídeo3",
+					"sid": 682226222228881,
+					"parameters": {
+						"visibility": "invisible"
+					}
+				},
+				{
+					"id": "pause",
+					"objectClass": "Vídeo3",
+					"sid": 426395938094320
+				}
+			],
+			"sid": 175660138895733
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 477241521927242,
+					"parameters": {
+						"variable": "VidaBoss",
+						"comparison": 0,
+						"value": "20"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite5",
+					"sid": 914768933679699,
+					"parameters": {
+						"animation": "\"2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Vídeo3",
+					"sid": 352126546283887,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Vídeo3",
+					"sid": 564019836160388
+				}
+			],
+			"sid": 626303822082001
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-playing",
+					"objectClass": "Vídeo3",
+					"sid": 499202965335782
+				}
+			],
+			"actions": [
+				{
+					"id": "set-time-scale",
+					"objectClass": "System",
+					"sid": 848433601384245,
+					"parameters": {
+						"time-scale": "0"
+					}
+				}
+			],
+			"sid": 246558697528902
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "has-ended",
+					"objectClass": "Vídeo3",
+					"sid": 465205012492628
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Vídeo3",
+					"sid": 705885881202988
+				},
+				{
+					"id": "set-time-scale",
+					"objectClass": "System",
+					"sid": 949415299914015,
+					"parameters": {
+						"time-scale": "1.0"
+					}
+				}
+			],
+			"sid": 939259957306085
 		}
 	],
 	"sid": 618056906854129

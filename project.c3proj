@@ -106,7 +106,8 @@
 			"vidaPersonagem",
 			"Sprite14",
 			"Sprite15",
-			"Sprite16"
+			"Sprite16",
+			"Vídeo3"
 		],
 		"subfolders": []
 	},
@@ -172,6 +173,14 @@
 					"name": "3.mp4",
 					"type": "video/mp4",
 					"sid": 958136593467689,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "4.mp4",
+					"type": "video/mp4",
+					"sid": 752458652370426,
 					"file-info": {
 						"purpose": "none"
 					}
