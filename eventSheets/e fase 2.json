@@ -74,6 +74,15 @@
 						"animation": "\"Ataque\""
 					},
 					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 252013812385408,
+					"parameters": {
+						"animation": "\"Dano\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -120,6 +129,15 @@
 					"sid": 580894362843376,
 					"parameters": {
 						"animation": "\"Ataque\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 828529081787657,
+					"parameters": {
+						"animation": "\"Dano\""
 					},
 					"isInverted": true
 				}
@@ -171,6 +189,15 @@
 						"animation": "\"Ataque\""
 					},
 					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 297492961364600,
+					"parameters": {
+						"animation": "\"Dano\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -216,6 +243,15 @@
 					"sid": 321773650000188,
 					"parameters": {
 						"animation": "\"Ataque\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite10",
+					"sid": 828034939355989,
+					"parameters": {
+						"animation": "\"Dano\""
 					},
 					"isInverted": true
 				}
@@ -557,12 +593,12 @@
 							}
 						},
 						{
-							"id": "add-remove-animation",
+							"id": "set-animation",
 							"objectClass": "Sprite10",
-							"sid": 134725812343880,
+							"sid": 655365615465974,
 							"parameters": {
-								"which": "add",
-								"name": "\"Dano\""
+								"animation": "\"Dano\"",
+								"from": "beginning"
 							}
 						},
 						{
