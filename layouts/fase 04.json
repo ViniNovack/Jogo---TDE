@@ -972,10 +972,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": -13,
-						"y": 599,
-						"width": 862,
-						"height": 488,
+						"x": -7,
+						"y": 0,
+						"width": 870,
+						"height": 480,
 						"originX": 0,
 						"originY": 0,
 						"color": [

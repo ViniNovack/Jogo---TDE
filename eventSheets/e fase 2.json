@@ -357,9 +357,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite13",
-					"sid": 921753542526104,
+					"sid": 914515515876646,
 					"parameters": {
-						"state": "not-mirrored"
+						"state": "mirrored"
 					}
 				}
 			],
@@ -391,9 +391,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "Sprite13",
-					"sid": 486879260662049,
+					"sid": 992059298382255,
 					"parameters": {
-						"state": "mirrored"
+						"state": "not-mirrored"
 					}
 				}
 			],
@@ -683,9 +683,9 @@
 				{
 					"id": "set-animation",
 					"objectClass": "Sprite13",
-					"sid": 181440538252790,
+					"sid": 206051113711155,
 					"parameters": {
-						"animation": "\"Animation 1\"",
+						"animation": "\"parado\"",
 						"from": "beginning"
 					}
 				}
@@ -922,6 +922,24 @@
 					"objectClass": "Sprite13",
 					"sid": 349168479765192,
 					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite13",
+					"sid": 689722600868550,
+					"parameters": {
+						"animation": "\"Batendo\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite13",
+					"sid": 276357254715121,
+					"parameters": {
+						"animation": "\"triste\""
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
