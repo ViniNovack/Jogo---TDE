@@ -33,34 +33,22 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 785,
+						"height": 952,
+						"originX": 0.5019108280254777,
+						"originY": 0.5378151260504201,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 4866911,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								1,
-								0,
-								1,
-								0.988,
-								0,
-								1
-							]
-						},
+						"imageSpriteId": 494796,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 284147180513107,
-				"name": "Animation 1",
+				"sid": 763378874487712,
+				"name": "Direita",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -70,15 +58,64 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 493,
+						"height": 411,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
+						"imageSpriteId": 4866911,
+						"collisionPoly": {
+							"points": [
+								0.7241379310344827,
+								0.9610705596107055,
+								0.1947261663286004,
+								0.8712116788321168,
+								0.1460446247464503,
+								0.19464720194647203,
+								0.7890466531440161,
+								0.097323600973236
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 284147180513107,
+				"name": "parado",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 933,
+						"height": 838,
+						"originX": 0.46730975348338694,
+						"originY": 0.5202863961813843,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
 						"imageSpriteId": 9762765,
+						"collisionPoly": {
+							"points": [
+								0.2915326902465165,
+								0.07637231503579953,
+								0.7588424437299037,
+								0.1336515513126491,
+								0.8231511254019294,
+								0.821002386634845,
+								0.15434083601286178,
+								0.725536992840096
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
@@ -86,6 +123,93 @@
 				],
 				"sid": 830592453048366,
 				"name": "triste",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 992,
+						"height": 1088,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7036190,
+						"collisionPoly": {
+							"points": [
+								1,
+								1,
+								0,
+								1,
+								0,
+								0,
+								1,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 731630756803307,
+				"name": "esquerda",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 992,
+						"height": 1088,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 2230232,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 897818713351957,
+				"name": "Batendo",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 1136,
+						"height": 944,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4559556,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 501914775004656,
+				"name": "Pulando",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

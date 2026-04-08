@@ -353,6 +353,14 @@
 					"parameters": {
 						"control": "left"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite13",
+					"sid": 921753542526104,
+					"parameters": {
+						"state": "not-mirrored"
+					}
 				}
 			],
 			"sid": 458821639506988
@@ -378,6 +386,14 @@
 					"behaviorType": "Plataforma",
 					"parameters": {
 						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Sprite13",
+					"sid": 486879260662049,
+					"parameters": {
+						"state": "mirrored"
 					}
 				}
 			],
@@ -611,6 +627,15 @@
 								"off-time": "0.1",
 								"duration": "1.0"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite13",
+							"sid": 168451517680057,
+							"parameters": {
+								"animation": "\"Batendo\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 976064603078447
@@ -718,6 +743,14 @@
 					"id": "pause",
 					"objectClass": "Vídeo3",
 					"sid": 426395938094320
+				},
+				{
+					"id": "set-scale",
+					"objectClass": "Sprite13",
+					"sid": 130426076263077,
+					"parameters": {
+						"scale": "0.5"
+					}
 				}
 			],
 			"sid": 175660138895733
@@ -808,6 +841,174 @@
 				}
 			],
 			"sid": 939259957306085
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Sprite10",
+					"sid": 755860311885320,
+					"parameters": {
+						"animation": "\"Dano\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 492503554742343,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 947545501898294
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite13",
+					"sid": 831450321172210,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-on-floor",
+					"objectClass": "Sprite13",
+					"sid": 760605381358913,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite13",
+					"sid": 487397216779554,
+					"parameters": {
+						"animation": "\"triste\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite13",
+					"sid": 368931422048891,
+					"parameters": {
+						"animation": "\"Ataque\""
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 798408209539482,
+					"parameters": {
+						"animation": "\"Direita\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 753854950914281
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Sprite13",
+					"sid": 349168479765192,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 171402199522189,
+					"parameters": {
+						"animation": "\"Pulando\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 452003658444098
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "Sprite13",
+					"sid": 634967617757079,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "is-moving",
+					"objectClass": "Sprite13",
+					"sid": 756634486098933,
+					"behaviorType": "Plataforma",
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite13",
+					"sid": 616061566228258,
+					"parameters": {
+						"animation": "\"triste\""
+					},
+					"isInverted": true
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite13",
+					"sid": 106270092137299,
+					"parameters": {
+						"animation": "\"Batendo\""
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 652344305918368,
+					"parameters": {
+						"animation": "\"parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 724207866896892
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Sprite13",
+					"sid": 375699772397232,
+					"parameters": {
+						"animation": "\"Batendo\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 622748056571362,
+					"parameters": {
+						"animation": "\"parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 917961122561979
 		}
 	],
 	"sid": 618056906854129
