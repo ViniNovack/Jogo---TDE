@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "VidaBoss",
 			"type": "number",
-			"initialValue": "25",
+			"initialValue": "40",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -635,17 +635,17 @@
 				{
 					"id": "set-width",
 					"objectClass": "vidaPersonagem",
-					"sid": 941259216351086,
+					"sid": 764792593194365,
 					"parameters": {
-						"width": "VidaPersonagem * 20"
+						"width": "VidaPersonagem * 25"
 					}
 				},
 				{
 					"id": "set-width",
 					"objectClass": "Sprite14",
-					"sid": 784609474199123,
+					"sid": 611630287223116,
 					"parameters": {
-						"width": "VidaBoss * 10"
+						"width": "VidaBoss * 20"
 					}
 				}
 			],
