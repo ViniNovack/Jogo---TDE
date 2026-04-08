@@ -513,6 +513,17 @@
 								"animation": "\"triste\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "Sprite13",
+							"sid": 538302513034696,
+							"behaviorType": "Piscar",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "1.0"
+							}
 						}
 					],
 					"sid": 585758371055330
@@ -560,6 +571,56 @@
 					"sid": 976064603078447
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Sprite10",
+					"sid": 197462476792176,
+					"parameters": {
+						"animation": "\"Ataque\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 723080658208393,
+					"parameters": {
+						"animation": "\"Parado\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 643461524646388
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Sprite13",
+					"sid": 645089587071630,
+					"parameters": {
+						"animation": "\"triste\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite13",
+					"sid": 181440538252790,
+					"parameters": {
+						"animation": "\"Animation 1\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 431439428593946
 		}
 	],
 	"sid": 618056906854129
