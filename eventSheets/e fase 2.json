@@ -621,6 +621,35 @@
 				}
 			],
 			"sid": 431439428593946
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 668079281962725
+				}
+			],
+			"actions": [
+				{
+					"id": "set-width",
+					"objectClass": "vidaPersonagem",
+					"sid": 941259216351086,
+					"parameters": {
+						"width": "VidaPersonagem * 20"
+					}
+				},
+				{
+					"id": "set-width",
+					"objectClass": "Sprite14",
+					"sid": 784609474199123,
+					"parameters": {
+						"width": "VidaBoss * 10"
+					}
+				}
+			],
+			"sid": 100768167001372
 		}
 	],
 	"sid": 618056906854129
