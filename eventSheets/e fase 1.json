@@ -1,56 +1,5 @@
 {
 	"name": "e fase 1",
-	"events": [
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 728413061608562
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Vídeo1",
-					"sid": 826197254538172,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
-					"id": "set-sampling",
-					"objectClass": "Vídeo1",
-					"sid": 933736633999288,
-					"parameters": {
-						"sampling": "auto"
-					}
-				}
-			],
-			"sid": 166841037525063
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "has-ended",
-					"objectClass": "Vídeo1",
-					"sid": 629227384212194
-				}
-			],
-			"actions": [
-				{
-					"id": "set-visible",
-					"objectClass": "Vídeo1",
-					"sid": 795255160191502,
-					"parameters": {
-						"visibility": "invisible"
-					}
-				}
-			],
-			"sid": 745141170177222
-		}
-	],
+	"events": [],
 	"sid": 624652553689459
 }

@@ -8,6 +8,13 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Audio",
+			"name": "Áudio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Teclado",
 			"author": "Scirra",
@@ -107,7 +114,8 @@
 			"Sprite14",
 			"Sprite15",
 			"Sprite16",
-			"Vídeo3"
+			"Vídeo3",
+			"Áudio"
 		],
 		"subfolders": []
 	},
@@ -120,6 +128,7 @@
 	},
 	"layouts": {
 		"items": [
+			"fase 00",
 			"fase 01",
 			"fase 02",
 			"fase 03",
@@ -134,7 +143,8 @@
 			"e fase 2",
 			"e fase 4",
 			"e fase 3",
-			"e fase 5"
+			"e fase 5",
+			"e fase 0"
 		],
 		"subfolders": []
 	},

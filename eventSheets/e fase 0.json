@@ -1,0 +1,54 @@
+{
+	"name": "e fase 0",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 516368011870849
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Vídeo1",
+					"sid": 662418374307591
+				}
+			],
+			"sid": 905508632623421
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 450666833970345,
+					"parameters": {
+						"key": 80
+					}
+				},
+				{
+					"id": "has-ended",
+					"objectClass": "Vídeo1",
+					"sid": 622716173020323
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 875460160373893,
+					"parameters": {
+						"layout": "fase 01"
+					}
+				}
+			],
+			"sid": 761227877582388,
+			"isOrBlock": true
+		}
+	],
+	"sid": 270819451725897
+}
