@@ -158,7 +158,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 255978590463377,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {

@@ -1027,6 +1027,57 @@
 				}
 			],
 			"sid": 917961122561979
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 312174674175649
+				},
+				{
+					"id": "is-playing",
+					"objectClass": "Vídeo",
+					"sid": 141566990499820,
+					"isInverted": true
+				},
+				{
+					"id": "is-playing",
+					"objectClass": "Vídeo1",
+					"sid": 770577872492335,
+					"isInverted": true
+				},
+				{
+					"id": "is-playing",
+					"objectClass": "Vídeo2",
+					"sid": 111204372312538,
+					"isInverted": true
+				},
+				{
+					"id": "is-playing",
+					"objectClass": "Vídeo3",
+					"sid": 115930398411523,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 651130167998724,
+					"parameters": {
+						"audio-file": {
+							"path": "1"
+						},
+						"loop": "looping",
+						"volume": "200",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 280247164665518
 		}
 	],
 	"sid": 618056906854129
