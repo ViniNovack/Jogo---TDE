@@ -540,7 +540,7 @@
 						},
 						"Plataforma": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 300,
 								"acceleration": 1000,
 								"deceleration": 1500,
 								"jump-strength": 650,
