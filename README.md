@@ -33,12 +33,6 @@ Take control of the ancient warrior and face the monster that threatens everythi
 
 ---
 
-## ▶️ How to Play
-
-> 🔗 Link to play coming soon!
-
----
-
 ## 👨‍💻 Author
 
 Made with 💙 by **ViniNovack**
